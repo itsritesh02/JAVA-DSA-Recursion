@@ -20,9 +20,9 @@ public class SOD {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Enter dighits: ");
+    System.out.print("Enter dighits: "); // Ex- 1254
     int n = sc.nextInt();
-    System.out.print("Sum of digits are: ");
+    System.out.print("Sum of digits are: "); 
     System.out.println(SumOfDigit(n));
 
   }
